@@ -77,8 +77,8 @@ class Student
   end
 
   def self.first_student_in_grade_10
-    first_student = self.first_student_in_grade_10(1).flatten
-    self.new_from_db(first_student)
+    student = self.first_student_in_grade_10(1).flatten
+    self.new_from_db(student)
   end
 
   def save
